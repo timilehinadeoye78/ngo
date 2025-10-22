@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - HopeForAll</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50">
+    <!-- Header -->
+     <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <!-- Logo -->
+              <a href="./index.html">
+                  <div class="flex items-center">
+                    <i class="fas fa-hands-helping text-2xl text-teal-600 mr-2"></i>
+                    <h1 class="text-xl font-bold text-teal-600">HopeForAll</h1>
+                </div>
+              </a>
+                
+                <!-- Navigation -->
+                <nav class="hidden md:flex items-center space-x-6">
+                    <a href="./index.html" class="text-gray-700 hover:text-teal-600 font-medium">Home</a>
+                    <a href="./about-us.html" class="text-gray-700 hover:text-teal-600 font-medium">About</a>
+                    <a href="./courses.html" class="text-gray-700 hover:text-teal-600 font-medium">Causes</a>
+                    <a href="./how-to-help.html" class="text-gray-700 hover:text-teal-600 font-medium">How to Help</a>
+                    <a href="./testimonials.html" class="text-gray-700 hover:text-teal-600 font-medium">Testimonials</a>
+                    <a href="./contactus.html" class="text-teal-600 font-medium">Contact</a>
+                    <!-- Donate Now Button -->
+                    <a href="./donate.html" class="bg-orange-500 text-white px-4 py-2 rounded-lg font-semibold hover:bg-orange-600 transition duration-300">
+                        Donate Now
+                    </a>
+                </nav>
+                
+                <!-- Mobile menu button -->
+                <button class="md:hidden text-xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-teal-600 to-teal-800 text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">Make a Difference Today</h1>
+            <p class="text-xl max-w-2xl mx-auto">
+                Your donation can transform lives and create lasting change in communities worldwide.
+            </p>
+        </div>
+    </section>
+
+    <!-- Donation Options -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-teal-700 text-center mb-12">Choose Your Donation</h2>
+
+                <!-- Quick Amounts -->
+                <div class="mb-12">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-6 text-center">Quick Donation Amounts</h3>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <button
+                            class="bg-white border-2 border-teal-200 py-4 rounded-lg text-teal-700 font-semibold hover:bg-teal-50 hover:border-teal-500 transition">
+                            ₦5,000
+                        </button>
+                        <button
+                            class="bg-white border-2 border-teal-200 py-4 rounded-lg text-teal-700 font-semibold hover:bg-teal-50 hover:border-teal-500 transition">
+                            ₦10,000
+                        </button>
+                        <button
+                            class="bg-white border-2 border-teal-200 py-4 rounded-lg text-teal-700 font-semibold hover:bg-teal-50 hover:border-teal-500 transition">
+                            ₦25,000
+                        </button>
+                        <button
+                            class="bg-white border-2 border-teal-200 py-4 rounded-lg text-teal-700 font-semibold hover:bg-teal-50 hover:border-teal-500 transition">
+                            Other Amount
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Donation Form -->
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <form class="space-y-6">
+                        <!-- Custom Amount -->
+                        <div>
+                            <label for="customAmount" class="block text-gray-700 font-medium mb-2">Or Enter Custom
+                                Amount (₦)</label>
+                            <input type="number" id="customAmount"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 text-lg"
+                                placeholder="Enter amount in Naira">
+                        </div>
+
+                        <!-- Donor Information -->
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="firstName" class="block text-gray-700 font-medium mb-2">First Name</label>
+                                <input type="text" id="firstName"
+                                    class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
+                                    placeholder="Your first name">
+                            </div>
+                            <div>
+                                <label for="lastName" class="block text-gray-700 font-medium mb-2">Last Name</label>
+                                <input type="text" id="lastName"
+                                    class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
+                                    placeholder="Your last name">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+                            <input type="email" id="email"
+                                class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
+                                placeholder="your@email.com">
+                        </div>
+
+                        <div>
+                            <label for="phone" class="block text-gray-700 font-medium mb-2">Phone Number</label>
+                            <input type="tel" id="phone"
+                                class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
+                                placeholder="080XXXXXXXX">
+                        </div>
+
+                        <!-- Payment Method -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-4">Payment Method</label>
+                            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                                <label
+                                    class="flex flex-col items-center p-4 border-2 border-gray-200 rounded-lg cursor-pointer hover:border-teal-500 transition">
+                                    <input type="radio" name="payment" class="hidden">
+                                    <i class="fab fa-cc-visa text-3xl text-blue-600 mb-2"></i>
+                                    <span class="text-sm">Card</span>
+                                </label>
+                                <label
+                                    class="flex flex-col items-center p-4 border-2 border-gray-200 rounded-lg cursor-pointer hover:border-teal-500 transition">
+                                    <input type="radio" name="payment" class="hidden">
+                                    <i class="fas fa-mobile-alt text-3xl text-green-600 mb-2"></i>
+                                    <span class="text-sm">Bank Transfer</span>
+                                </label>
+                                <label
+                                    class="flex flex-col items-center p-4 border-2 border-gray-200 rounded-lg cursor-pointer hover:border-teal-500 transition">
+                                    <input type="radio" name="payment" class="hidden">
+                                    <i class="fab fa-paypal text-3xl text-blue-500 mb-2"></i>
+                                    <span class="text-sm">PayPal</span>
+                                </label>
+                                <label
+                                    class="flex flex-col items-center p-4 border-2 border-gray-200 rounded-lg cursor-pointer hover:border-teal-500 transition">
+                                    <input type="radio" name="payment" class="hidden">
+                                    <i class="fas fa-university text-3xl text-teal-600 mb-2"></i>
+                                    <span class="text-sm">USSD</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Donation Type -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-4">Donation Type</label>
+                            <div class="space-y-3">
+                                <label class="flex items-center">
+                                    <input type="radio" name="donationType" class="mr-3 text-teal-600" checked>
+                                    <span>One-time donation</span>
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="radio" name="donationType" class="mr-3 text-teal-600">
+                                    <span>Monthly recurring donation</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Designate Donation -->
+                        <div>
+                            <label for="designation" class="block text-gray-700 font-medium mb-2">Designate Your
+                                Donation (Optional)</label>
+                            <select id="designation"
+                                class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-teal-500">
+                                <option value="">Where most needed</option>
+                                <option value="education">Education for All</option>
+                                <option value="water">Clean Water Access</option>
+                                <option value="healthcare">Healthcare Initiatives</option>
+                                <option value="emergency">Emergency Relief</option>
+                            </select>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit"
+                            class="w-full bg-orange-500 text-white py-4 rounded-lg font-semibold text-lg hover:bg-orange-600 transition duration-300">
+                            Donate Now
+                        </button>
+
+                        <!-- Security Note -->
+                        <div class="text-center text-sm text-gray-600">
+                            <i class="fas fa-lock mr-2"></i>
+                            Your donation is secure and encrypted
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section class="py-16 bg-teal-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-teal-700 text-center mb-12">Your Impact</h2>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div>
+                    <div class="text-4xl font-bold text-teal-600 mb-2">₦5,000</div>
+                    <p class="text-gray-600">Provides school supplies for 10 children</p>
+                </div>
+                <div>
+                    <div class="text-4xl font-bold text-teal-600 mb-2">₦25,000</div>
+                    <p class="text-gray-600">Provides clean water for a family for 1 year</p>
+                </div>
+                <div>
+                    <div class="text-4xl font-bold text-teal-600 mb-2">₦50,000</div>
+                    <p class="text-gray-600">Supports healthcare for an entire village</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-hands-helping text-2xl text-teal-400 mr-2"></i>
+                        <h3 class="text-xl font-bold">HopeForAll</h3>
+                    </div>
+                    <p class="text-gray-400">
+                        Creating sustainable solutions for communities in need worldwide.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="index.html" class="hover:text-white">Home</a></li>
+                        <li><a href="about.html" class="hover:text-white">About Us</a></li>
+                        <li><a href="causes.html" class="hover:text-white">Our Causes</a></li>
+                        <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Our Causes</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="causes.html" class="hover:text-white">Education</a></li>
+                        <li><a href="causes.html" class="hover:text-white">Clean Water</a></li>
+                        <li><a href="causes.html" class="hover:text-white">Healthcare</a></li>
+                        <li><a href="causes.html" class="hover:text-white">All Causes</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Contact Info</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>info@hopeforall.org</li>
+                        <li>+1 (555) 123-4567</li>
+                        <li>123 Charity Ave, Hope City</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
+                <p>&copy; 2024 HopeForAll. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

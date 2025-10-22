@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Causes - HopeForAll</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50">
+    <!-- Header -->
+     <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <!-- Logo -->
+              <a href="./index.html">
+                  <div class="flex items-center">
+                    <i class="fas fa-hands-helping text-2xl text-teal-600 mr-2"></i>
+                    <h1 class="text-xl font-bold text-teal-600">HopeForAll</h1>
+                </div>
+              </a>
+                
+                <!-- Navigation -->
+                <nav class="hidden md:flex items-center space-x-6">
+                    <a href="./index.html" class="text-gray-700 hover:text-teal-600 font-medium">Home</a>
+                    <a href="./about-us.html" class="text-gray-700 hover:text-teal-600 font-medium">About</a>
+                    <a href="./courses.html" class="text-gray-700 hover:text-teal-600 font-medium border-b-2 border-teal-600">Causes</a>
+                    <a href="./how-to-help.html" class="text-gray-700 hover:text-teal-600 font-medium">How to Help</a>
+                    <a href="./testimonials.html" class="text-gray-700 hover:text-teal-600 font-medium">Testimonials</a>
+                    <a href="./contactus.html" class="text-teal-600 font-medium ">Contact</a>
+                    <!-- Donate Now Button -->
+                    <a href="./donate.html" class="bg-orange-500 text-white px-4 py-2 rounded-lg font-semibold hover:bg-orange-600 transition duration-300">
+                        Donate Now
+                    </a>
+                </nav>
+                
+                <!-- Mobile menu button -->
+                <button class="md:hidden text-xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-teal-600 to-teal-800 text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">Our Causes</h1>
+            <p class="text-xl max-w-2xl mx-auto">
+                Discover the impactful initiatives we're working on to create sustainable change in communities
+                worldwide.
+            </p>
+        </div>
+    </section>
+
+    <!-- Causes Grid -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Education Cause -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                    <div class="h-48 bg-teal-100 flex items-center justify-center">
+                        <i class="fas fa-graduation-cap text-6xl text-teal-600"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-teal-700 mb-3">Education for All</h3>
+                        <p class="text-gray-600 mb-4">
+                            Providing quality education to children in underserved communities through school
+                            construction, teacher training, and learning materials.
+                        </p>
+                        <div class="mb-4">
+                            <div class="flex justify-between text-sm text-gray-600 mb-1">
+                                <span>Raised: $45,000</span>
+                                <span>Goal: $60,000</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-teal-600 h-2 rounded-full" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <a href="donate.html"
+                            class="block text-center bg-teal-600 text-white py-2 rounded font-semibold hover:bg-teal-700 transition">
+                            Support This Cause
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Clean Water Cause -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                    <div class="h-48 bg-teal-100 flex items-center justify-center">
+                        <i class="fas fa-tint text-6xl text-teal-600"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-teal-700 mb-3">Clean Water Access</h3>
+                        <p class="text-gray-600 mb-4">
+                            Building wells and water purification systems to provide clean, safe drinking water to
+                            communities in need.
+                        </p>
+                        <div class="mb-4">
+                            <div class="flex justify-between text-sm text-gray-600 mb-1">
+                                <span>Raised: $32,000</span>
+                                <span>Goal: $50,000</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-teal-600 h-2 rounded-full" style="width: 64%"></div>
+                            </div>
+                        </div>
+                        <a href="donate.html"
+                            class="block text-center bg-teal-600 text-white py-2 rounded font-semibold hover:bg-teal-700 transition">
+                            Support This Cause
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Healthcare Cause -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                    <div class="h-48 bg-teal-100 flex items-center justify-center">
+                        <i class="fas fa-heartbeat text-6xl text-teal-600"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-teal-700 mb-3">Healthcare Initiatives</h3>
+                        <p class="text-gray-600 mb-4">
+                            Establishing medical clinics and providing essential healthcare services to remote
+                            communities.
+                        </p>
+                        <div class="mb-4">
+                            <div class="flex justify-between text-sm text-gray-600 mb-1">
+                                <span>Raised: $58,000</span>
+                                <span>Goal: $75,000</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-teal-600 h-2 rounded-full" style="width: 77%"></div>
+                            </div>
+                        </div>
+                        <a href="donate.html"
+                            class="block text-center bg-teal-600 text-white py-2 rounded font-semibold hover:bg-teal-700 transition">
+                            Support This Cause
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-hands-helping text-2xl text-teal-400 mr-2"></i>
+                        <h3 class="text-xl font-bold">HopeForAll</h3>
+                    </div>
+                    <p class="text-gray-400">
+                        Creating sustainable solutions for communities in need worldwide.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="index.html" class="hover:text-white">Home</a></li>
+                        <li><a href="about.html" class="hover:text-white">About Us</a></li>
+                        <li><a href="causes.html" class="hover:text-white">Our Causes</a></li>
+                        <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Our Causes</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="causes.html" class="hover:text-white">Education</a></li>
+                        <li><a href="causes.html" class="hover:text-white">Clean Water</a></li>
+                        <li><a href="causes.html" class="hover:text-white">Healthcare</a></li>
+                        <li><a href="causes.html" class="hover:text-white">All Causes</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Contact Info</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>info@hopeforall.org</li>
+                        <li>+1 (555) 123-4567</li>
+                        <li>123 Charity Ave, Hope City</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
+                <p>&copy; 2024 HopeForAll. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

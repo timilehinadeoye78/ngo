@@ -1,0 +1,319 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background: white;
+  color: #002D62;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #002D62;
+  padding: 10px 30px;
+  color: white;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.nav-left h1 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.nav-right a,
+.nav-right button {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.nav-right button {
+  background: #00C897;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.nav-right select {
+  margin-left: 10px;
+  padding: 6px;
+}
+
+h2 {
+  text-align: center;
+  margin: 30px 0 20px;
+  color: #00C897;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 20px;
+
+
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 01);
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 15px;
+
+
+}
+
+
+.card h3 {
+  margin: 0 0 10px;
+
+}
+
+.card p {
+  font-size: 13px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.tags {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tag {
+  background: #CFF7F0;
+  color: #00755E;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+
+}
+
+h4 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-align: center;
+
+
+
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: #002D62;
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  margin: 0 15px 15px 15px;
+  width: 100%;
+
+
+
+}
+
+
+
+/* .subscribe-section {
+  background: #38806e;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.subscribe-section input[type=email] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 250px;
+}
+
+.subscribe-section button {
+  padding: 10px 20px;
+  background: #002D62;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  background: #002D62;
+  color: white;
+  padding: 20px 30px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.footer div {
+  margin: 5px 0;
+}
+
+.footer h4 {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  display: block;
+  margin-bottom: 5px;
+} */
+
+/* medium */
+@media screen and (min-width:480px) {
+  body {
+    font-family: 'Inter',
+      sans-serif;
+    margin: 0;
+    background: white;
+    color: #002D62;
+    padding: 20px;
+  }
+
+  /* .footer {
+    background: #002D62;
+    color: white;
+    padding: 20px 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  } */
+
+  /* .subscribe-section {
+    background: #38806e;
+    color: white;
+    padding: 30px;
+    text-align: center;
+  } */
+
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+
+  }
+
+  h4 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+  
+  
+  
+  }
+  
+  .btn {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #002D62;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 0 15px 15px 15px;
+    width: 100%;
+  
+  
+  
+  }
+  
+
+}
+
+
+
+
+/* large */
+@media screen and (min-width:900px) {
+  
+h4 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-align: center;
+
+
+
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: #002D62;
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  margin: 0 15px 15px 15px;
+  width: 100%;
+
+
+
+}
+  body {
+    font-family: 'Inter',
+      sans-serif;
+    margin: 0;
+    background: white;
+    color: #002D62;
+    padding: 20px;
+  }
+
+  .footer {
+    background: #002D62;
+    color: white;
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .subscribe-section {
+    background: #38806e;
+    color: white;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+
+  }
+
+}
+

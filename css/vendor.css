@@ -1,0 +1,127 @@
+body {
+  background: linear-gradient(to bottom, rgb(20, 20, 19), rgb(44, 43, 43));
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+
+
+form-box {
+  background-color: rgb(112, 108, 108);
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 255);
+}
+
+form-box h1 {
+
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  justify-content: start;
+  display: flex;
+
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(59, 56, 56);
+  color: white;
+}
+
+.rm {
+  width: 100%;
+  background-color: yellow;
+}
+
+.od {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 10px;
+
+
+
+}
+
+.em {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 10px;
+
+
+
+}
+
+
+
+.tm {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 10px;
+
+
+
+}
+
+.tf {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 10px;
+
+
+
+}
+
+.ran {
+  width: fit-content;
+  border: 1px solid yellow;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  padding-right: 10px;
+
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 25px;
+  background-color: yellow;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}

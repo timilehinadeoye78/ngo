@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HopeForAll - Making a Difference Together</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50">
+  <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <!-- Logo -->
+              <a href="./index.html">
+                  <div class="flex items-center">
+                    <i class="fas fa-hands-helping text-2xl text-teal-600 mr-2"></i>
+                    <h1 class="text-xl font-bold text-teal-600">HopeForAll</h1>
+                </div>
+              </a>
+                
+                <!-- Navigation -->
+                <nav class="hidden md:flex items-center space-x-6">
+                    <a href="./index.html" class="text-gray-700 hover:text-teal-600 font-medium border-b-2 border-teal-600">Home</a>
+                    <a href="./about-us.html" class="text-gray-700 hover:text-teal-600 font-medium">About</a>
+                    <a href="./courses.html" class="text-gray-700 hover:text-teal-600 font-medium">Causes</a>
+                    <a href="./how-to-help.html" class="text-gray-700 hover:text-teal-600 font-medium">How to Help</a>
+                    <a href="./testimonials.html" class="text-gray-700 hover:text-teal-600 font-medium">Testimonials</a>
+                    <a href="./contactus.html" class="text-teal-600 font-medium ">Contact</a>
+                    <!-- Donate Now Button -->
+                    <a href="./donate.html" class="bg-orange-500 text-white px-4 py-2 rounded-lg font-semibold hover:bg-orange-600 transition duration-300">
+                        Donate Now
+                    </a>
+                </nav>
+                
+                <!-- Mobile menu button -->
+                <button class="md:hidden text-xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-teal-600 to-teal-800 text-white py-20">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-6">Together We Can Make a Difference</h1>
+      <p class="text-xl mb-8 max-w-2xl mx-auto">
+        Join us in our mission to create positive change and build a better future for communities in need around the
+        world.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="./learn-more.html"
+          class="bg-white text-teal-700 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+          Learn More
+        </a>
+        <a href="./donate.html"
+          class="bg-orange-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-orange-600 transition">
+          Donate Now
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact Stats -->
+  <section class="py-12 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div>
+          <div class="text-3xl font-bold text-teal-600 mb-2">50+</div>
+          <div class="text-gray-600">Countries Reached</div>
+        </div>
+        <div>
+          <div class="text-3xl font-bold text-teal-600 mb-2">250K+</div>
+          <div class="text-gray-600">Lives Impacted</div>
+        </div>
+        <div>
+          <div class="text-3xl font-bold text-teal-600 mb-2">1.2K</div>
+          <div class="text-gray-600">Volunteers</div>
+        </div>
+        <div>
+          <div class="text-3xl font-bold text-teal-600 mb-2">15+</div>
+          <div class="text-gray-600">Years of Service</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Causes -->
+  <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-teal-700 text-center mb-12">Our Featured Causes</h2>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Cause 1 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+          <div class="h-48 bg-teal-100 flex items-center justify-center">
+            <i class="fas fa-graduation-cap text-5xl text-teal-600"></i>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-teal-700 mb-3">Education for All</h3>
+            <p class="text-gray-600 mb-4">
+              Providing quality education to children in underserved communities through school construction and teacher
+              training.
+            </p>
+            <a href="causes.html#education" class="text-teal-600 font-semibold hover:text-teal-700">
+              Learn More →
+            </a>
+          </div>
+        </div>
+
+        <!-- Cause 2 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+          <div class="h-48 bg-teal-100 flex items-center justify-center">
+            <i class="fas fa-tint text-5xl text-teal-600"></i>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-teal-700 mb-3">Clean Water Access</h3>
+            <p class="text-gray-600 mb-4">
+              Building wells and water purification systems to provide clean, safe drinking water to communities in
+              need.
+            </p>
+            <a href="causes.html#water" class="text-teal-600 font-semibold hover:text-teal-700">
+              Learn More →
+            </a>
+          </div>
+        </div>
+
+        <!-- Cause 3 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+          <div class="h-48 bg-teal-100 flex items-center justify-center">
+            <i class="fas fa-heartbeat text-5xl text-teal-600"></i>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-teal-700 mb-3">Healthcare Initiatives</h3>
+            <p class="text-gray-600 mb-4">
+              Establishing medical clinics and providing essential healthcare services to remote communities.
+            </p>
+            <a href="causes.html#healthcare" class="text-teal-600 font-semibold hover:text-teal-700">
+              Learn More →
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-12">
+        <a href="causes.html"
+          class="bg-teal-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-teal-700 transition">
+          View All Causes
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- How to Help -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-teal-700 text-center mb-12">How You Can Help</h2>
+
+      <div class="grid md:grid-cols-4 gap-6">
+        <div class="text-center">
+          <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <i class="fas fa-donate text-2xl text-orange-500"></i>
+          </div>
+          <h3 class="text-lg font-bold text-teal-700 mb-2">Donate</h3>
+          <p class="text-gray-600 text-sm">Support our mission with financial contributions</p>
+        </div>
+
+        <div class="text-center">
+          <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <i class="fas fa-hands-helping text-2xl text-teal-600"></i>
+          </div>
+          <h3 class="text-lg font-bold text-teal-700 mb-2">Volunteer</h3>
+          <p class="text-gray-600 text-sm">Join our team and contribute your time</p>
+        </div>
+
+        <div class="text-center">
+          <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <i class="fas fa-share-alt text-2xl text-green-600"></i>
+          </div>
+          <h3 class="text-lg font-bold text-teal-700 mb-2">Share</h3>
+          <p class="text-gray-600 text-sm">Spread awareness about our cause</p>
+        </div>
+
+        <div class="text-center">
+          <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <i class="fas fa-hand-holding-usd text-2xl text-purple-600"></i>
+          </div>
+          <h3 class="text-lg font-bold text-teal-700 mb-2">Fundraise</h3>
+          <p class="text-gray-600 text-sm">Organize events to support our work</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="py-16 bg-teal-700 text-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-4">Ready to Make a Difference?</h2>
+      <p class="text-xl mb-8 max-w-2xl mx-auto">
+        Join thousands of supporters who are helping us create lasting change in communities worldwide.
+      </p>
+      <a href="donate.html"
+        class="bg-orange-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-orange-600 transition">
+        Donate Now
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto px-4">
+      <div class="grid md:grid-cols-4 gap-8">
+        <div>
+          <div class="flex items-center mb-4">
+            <i class="fas fa-hands-helping text-2xl text-teal-400 mr-2"></i>
+            <h3 class="text-xl font-bold">HopeForAll</h3>
+          </div>
+          <p class="text-gray-400">
+            Creating sustainable solutions for communities in need worldwide.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="index.html" class="hover:text-white">Home</a></li>
+            <li><a href="about.html" class="hover:text-white">About Us</a></li>
+            <li><a href="causes.html" class="hover:text-white">Our Causes</a></li>
+            <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-lg font-bold mb-4">Our Causes</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="causes.html#education" class="hover:text-white">Education</a></li>
+            <li><a href="causes.html#water" class="hover:text-white">Clean Water</a></li>
+            <li><a href="causes.html#healthcare" class="hover:text-white">Healthcare</a></li>
+            <li><a href="causes.html" class="hover:text-white">All Causes</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-lg font-bold mb-4">Contact Info</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li>info@hopeforall.org</li>
+            <li>+1 (555) 123-4567</li>
+            <li>123 Charity Ave, Hope City</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
+        <p>&copy; 2024 HopeForAll. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
